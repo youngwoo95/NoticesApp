@@ -35,7 +35,6 @@ namespace NoticeApp.Models
                 _logger.LogError($"에러 발생({nameof(AddAsync)}): {ex.Message}");
             }
             
-
             return model;
         }
 

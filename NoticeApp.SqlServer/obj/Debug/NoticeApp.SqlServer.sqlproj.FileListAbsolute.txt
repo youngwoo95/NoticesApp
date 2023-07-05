@@ -4,3 +4,7 @@ C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\bin\Debug\NoticeAp
 C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\NoticeApp.SqlServer.sqlproj.AssemblyReference.cache
 C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\NoticeApp.SqlServer.dll
 C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\NoticeApp.SqlServer.pdb
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\Model.xml
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\refactor.xml
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\postdeploy.sql
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\predeploy.sql

@@ -62,4 +62,7 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Notices.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="NoticeApp_1.SqlServer.publish.xml" />
+  </ItemGroup>
 </Project>

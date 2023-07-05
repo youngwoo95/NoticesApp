@@ -1,0 +1,10 @@
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\bin\Debug\netstandard2.0\NoticeApp.Models.deps.json
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\bin\Debug\netstandard2.0\NoticeApp.Models.dll
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\bin\Debug\netstandard2.0\NoticeApp.Models.pdb
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\obj\Debug\netstandard2.0\NoticeApp.Models.csproj.AssemblyReference.cache
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\obj\Debug\netstandard2.0\NoticeApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\obj\Debug\netstandard2.0\NoticeApp.Models.AssemblyInfoInputs.cache
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\obj\Debug\netstandard2.0\NoticeApp.Models.AssemblyInfo.cs
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\obj\Debug\netstandard2.0\NoticeApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\obj\Debug\netstandard2.0\NoticeApp.Models.dll
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.Models\obj\Debug\netstandard2.0\NoticeApp.Models.pdb
