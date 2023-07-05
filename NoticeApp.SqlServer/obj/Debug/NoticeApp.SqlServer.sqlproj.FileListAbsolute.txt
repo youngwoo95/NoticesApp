@@ -1,0 +1,6 @@
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\bin\Debug\NoticeApp.SqlServer.dacpac
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\bin\Debug\NoticeApp.SqlServer.dll
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\bin\Debug\NoticeApp.SqlServer.pdb
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\NoticeApp.SqlServer.sqlproj.AssemblyReference.cache
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\NoticeApp.SqlServer.dll
+C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp.SqlServer\obj\Debug\NoticeApp.SqlServer.pdb
