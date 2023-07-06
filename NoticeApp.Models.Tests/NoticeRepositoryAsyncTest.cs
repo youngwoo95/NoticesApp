@@ -32,7 +32,7 @@ namespace NoticeApp.Models.Tests
             {
                 //[A] Arrange
                 var repository = new NoticeRepositoryAsync(context, factory);
-                var model = new Notice { Name = "관리자", Title = "공지사항입니다.", Content = "내용입니다." }; // [1]
+                var model = new Notice { Name = "[1] 관리자", Title = "공지사항입니다.", Content = "내용입니다." }; // [1]
 
                 //[B] Act
                 await repository.AddAsync(model);
@@ -45,7 +45,7 @@ namespace NoticeApp.Models.Tests
                 Assert.AreEqual(1, await context.Notices.CountAsync());
 
                 var model = await context.Notices.Where(m => m.Id == 1).SingleOrDefaultAsync();
-                Assert.AreEqual("관리자", model?.Name);
+                Assert.AreEqual("[1] 관리자", model?.Name);
             }
             #endregion
 
@@ -57,11 +57,11 @@ namespace NoticeApp.Models.Tests
                 // transaction.Commit();
                 //[A] Arrange
                 var repository = new NoticeRepositoryAsync(context, factory);
-                var model = new Notice { Name = "홍길동", Title = "공지사항입니다.", Content = "내용입니다." };
+                var model = new Notice { Name = "[2] 홍길동", Title = "공지사항입니다.", Content = "내용입니다." };
 
                 //[B] Act
                 await repository.AddAsync(model); // [2]
-                await repository.AddAsync(new Notice { Name = "백두산", Title = "공지사항입니다." }); // [3]
+                await repository.AddAsync(new Notice { Name = "[3] 백두산", Title = "공지사항입니다." }); // [3]
 
                 await context.SaveChangesAsync();
             }
@@ -75,6 +75,25 @@ namespace NoticeApp.Models.Tests
                 Assert.AreEqual(3, models.Count);
             }
             #endregion
+
+
+            #region [3] GetByIdAsync() Method Test
+            using (var context = new NoticeAppDbContext(options))
+            {
+                // Empty
+
+            }
+
+            using (var context = new NoticeAppDbContext(options))
+            {
+                var repository = new NoticeRepositoryAsync(context, factory);
+
+                var model = await repository.GetByIdAsync(2);
+                Assert.IsTrue(model.Name.Contains("길동"));
+                Assert.AreEqual("[2] 홍길동", model.Name);
+            }
+            #endregion
+
 
             // [?] GetStatus() Method Test
             using (var context = new NoticeAppDbContext(options))
