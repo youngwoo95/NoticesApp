@@ -30,9 +30,12 @@ namespace NoticeApp.Models
             }
             */
 
+            /*
             var options = new DbContextOptionsBuilder<NoticeAppDbContext>()
                 .UseInMemoryDatabase(databaseName: $"NoticeApp{(Guid.NewGuid())}").Options;
-            //optionsBuilder.UseSqlServer(@"Server=192.168.45.73,1433;Database=NoticeApp;User Id=sa2;Password=wegg2650;");
+            */
+            
+            optionsBuilder.UseSqlServer(@"Server=192.168.45.73,1433;Database=NoticeApp;User Id=sa2;Password=wegg2650;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
