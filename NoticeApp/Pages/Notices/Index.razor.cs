@@ -27,7 +27,7 @@ namespace NoticeApp.Pages.Notices
         protected override async Task OnInitializedAsync()
         {
             // MatBlazor - Prgressbar
-            await Task.Delay(3000);
+            //await Task.Delay(3000);
             await DisplayData();
         }
 
