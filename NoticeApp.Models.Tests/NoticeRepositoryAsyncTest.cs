@@ -16,22 +16,22 @@ namespace NoticeApp.Models.Tests
         [TestMethod]
         public async Task NoticeRepositoryAsyncAllMethodTest()
         {
-            //[0] DbContextOptions<T> Object Creation and IloggerFactory Object Creation
-            
+            #region [0] DbContextOptions<T> Object Creation and IloggerFactory Object Creation
             var options = new DbContextOptionsBuilder<NoticeAppDbContext>()
-                .UseInMemoryDatabase(databaseName: $"NoticeApp{(Guid.NewGuid())}").Options;
-            
+                    .UseInMemoryDatabase(databaseName: $"NoticeApp{(Guid.NewGuid())}").Options;
+
             //var options = new DbContextOptionsBuilder<NoticeAppDbContext>().UseSqlServer(@"Server=192.168.45.73,1433;Database=NoticeApp;User Id=sa2;Password=wegg2650;").Options;
 
             var serviceProvider = new ServiceCollection().AddLogging().BuildServiceProvider();
             var factory = serviceProvider.GetService<ILoggerFactory>();
+            #endregion
 
-            //[1] AddAsync() Method Test
+            #region [1] AddAsync() Method Test
             using (var context = new NoticeAppDbContext(options))
             {
                 //[A] Arrange
                 var repository = new NoticeRepositoryAsync(context, factory);
-                var model = new Notice { Name = "관리자", Title = "공지사항입니다.", Content = "내용입니다." };
+                var model = new Notice { Name = "관리자", Title = "공지사항입니다.", Content = "내용입니다." }; // [1]
 
                 //[B] Act
                 await repository.AddAsync(model);
@@ -46,7 +46,34 @@ namespace NoticeApp.Models.Tests
                 var model = await context.Notices.Where(m => m.Id == 1).SingleOrDefaultAsync();
                 Assert.AreEqual("관리자", model?.Name);
             }
+            #endregion
 
+            #region [2] GetAllAsync() Method Test
+            using (var context = new NoticeAppDbContext(options))
+            {
+                // 트랜잭션 처리 - Sqlite 에서는 지원 X
+                //using (var transaction = context.Database.BeginTransaction()) { }
+                // transaction.Commit();
+                //[A] Arrange
+                var repository = new NoticeRepositoryAsync(context, factory);
+                var model = new Notice { Name = "홍길동", Title = "공지사항입니다.", Content = "내용입니다." };
+
+                //[B] Act
+                await repository.AddAsync(model); // [2]
+                await repository.AddAsync(new Notice { Name = "백두산", Title = "공지사항입니다." }); // [3]
+
+                await context.SaveChangesAsync();
+            }
+
+            using (var context = new NoticeAppDbContext(options))
+            {
+                // [C] Assert
+                var repository = new NoticeRepositoryAsync(context, factory);
+
+                var models = await repository.GetAllAsync();
+                Assert.AreEqual(3, models.Count);
+            }
+            #endregion
         }
     }
 }

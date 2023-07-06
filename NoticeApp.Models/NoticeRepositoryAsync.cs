@@ -1,7 +1,9 @@
 ﻿using Dul.Domain.Common;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Transactions;
 
@@ -39,9 +41,9 @@ namespace NoticeApp.Models
         }
 
         // 출력
-        public Task<List<Notice>> GetAllAsync()
+        public async Task<List<Notice>> GetAllAsync()
         {
-            throw new System.NotImplementedException();
+            return await _context.Notices.OrderByDescending(m => m.Id).ToListAsync();
         }
 
         // 상세
