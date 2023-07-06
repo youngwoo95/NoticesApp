@@ -5,6 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.WebSockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -74,6 +75,26 @@ namespace NoticeApp.Models.Tests
                 Assert.AreEqual(3, models.Count);
             }
             #endregion
+
+            // [?] GetStatus() Method Test
+            using (var context = new NoticeAppDbContext(options))
+            {
+                int parentId = 1;
+
+                var no1 = await context.Notices.Where(m => m.Id == 1).SingleOrDefaultAsync();
+                no1.ParentId = parentId;
+                no1.IsPinned = true;
+
+                context.Entry(no1).State = EntityState.Modified;
+                context.SaveChanges();
+
+                var repository = new NoticeRepositoryAsync(context, factory);
+                var result = await repository.GetStatus(parentId);
+
+                Assert.AreEqual(1, result.Item1); // Pinned Count == 1
+            }
+
+
         }
     }
 }
