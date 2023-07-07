@@ -5,7 +5,9 @@ namespace NoticeApp.Pages.Notices.Components
 {
     public partial class EditorForm
     {
-        
+        /// <summary>
+        /// 모달 다이얼로그를 표시할건지 여부
+        /// </summary>
         public bool IsShow { get; set; } = false;
 
         private string parentId = "0";
@@ -73,7 +75,7 @@ namespace NoticeApp.Pages.Notices.Components
 
         protected async void CreateOrEditClick()
         {
-            if (int.TryParse(parentId, out int newParentId))
+            if (!int.TryParse(parentId, out int newParentId))
             {
                 newParentId = 0;
             }

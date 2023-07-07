@@ -13,6 +13,7 @@ namespace NoticeApp.Pages.Notices
         public NavigationManager NavigationManagerReference { get; set; }
 
         public EditorForm EditorFormReference { get; set; }
+        public DeleteDialog DeleteFormReference { get; set; }
 
         protected List<Notice> models;
 
@@ -41,6 +42,8 @@ namespace NoticeApp.Pages.Notices
             var resultsSet = await NoticeRepositoryAsyncReference.GetAllAsync(pager.PageIndex, pager.PageSize);
             pager.RecordCount = resultsSet.TotalRecords;
             models = resultsSet.Records.ToList();
+
+            StateHasChanged();
         }
 
         /// <summary>
@@ -58,9 +61,6 @@ namespace NoticeApp.Pages.Notices
             pager.PageNumber = pageIndex + 1;
 
             await DisplayData();
-
-            // Refresh
-            StateHasChanged();
         }
 
         public string EditorFormTitle { get; set; } = "CREATE";
@@ -80,12 +80,34 @@ namespace NoticeApp.Pages.Notices
             EditorFormReference.Show();
         }
 
+        protected void DeleteBy(Notice model)
+        {
+            this.model = model;
+            
+            // DeleteForm 모달창 띄우기
+            DeleteFormReference.Show();
+        }
+
         protected async void CreateOrEdit()
         {
             EditorFormReference.Hide();
             
             await DisplayData();
-            StateHasChanged();
+        }
+
+        // 삭제 기능
+        protected async void DeleteClick()
+        {
+            // 삭제 기능 실행
+            await NoticeRepositoryAsyncReference.DeleteAsync(this.model.Id);
+
+            // 폼닫기
+            DeleteFormReference.Hide();
+
+            // 모델 초기화
+            this.model = new Notice();
+            // 새로고침 - 데이터 다시 로드
+            await DisplayData();
         }
 
 

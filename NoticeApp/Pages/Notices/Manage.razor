@@ -62,9 +62,8 @@
                                 <a href="/Notices/Delete/@m.Id" class="btn btn-light">Delete</a>
                             </td>
                             <td>
-                                <input type="button" name="btnEdit" value="Edit with Modal"
-                                       class="btn btn-primary"
-                                       @onclick="(() => EditBy(m))"/>
+                                <input type="button" name="btnEdit" value="Edit with Modal" class="btn btn-primary" @onclick="(() => EditBy(m))"/>
+                                <input type="button" name="btnDelete" value="Delete with Modal" class="btn btn-primary" @onclick="(() => DeleteBy(m))" />
                             </td>
 
                         </tr>
@@ -85,3 +84,12 @@
     EditCallback="CreateOrEdit">
     <EditorFormTitle>@EditorFormTitle</EditorFormTitle>
 </NoticeApp.Pages.Notices.Components.EditorForm>
+
+
+<NoticeApp.Pages.Notices.Components.DeleteDialog
+    @ref="DeleteFormReference"
+    OnClick="DeleteClick"
+
+>
+
+</NoticeApp.Pages.Notices.Components.DeleteDialog>
