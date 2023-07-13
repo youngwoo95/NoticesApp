@@ -2,10 +2,14 @@
 using NoticeApp.Models;
 using NoticeApp.Pages.Notices.Components;
 
+
 namespace NoticeApp.Pages.Notices
 {
     public partial class Manage
     {
+        [Parameter]
+        public int ParentId { get; set; } = 0;
+
         [Inject]
         public INoticeRepositoryAsync NoticeRepositoryAsyncReference { get; set; }
 
@@ -18,6 +22,11 @@ namespace NoticeApp.Pages.Notices
         protected List<Notice> models;
 
         protected Notice model = new Notice();
+
+        /// <summary>
+        /// 공지사항으로 올리기 폼을 띄울건지 여부
+        /// </summary>
+        public bool IsInlineDialogShow { get; set; } = false;
 
         /// <summary>
         /// 페이징 처리
@@ -39,9 +48,20 @@ namespace NoticeApp.Pages.Notices
 
         private async Task DisplayData()
         {
-            var resultsSet = await NoticeRepositoryAsyncReference.GetAllAsync(pager.PageIndex, pager.PageSize);
-            pager.RecordCount = resultsSet.TotalRecords;
-            models = resultsSet.Records.ToList();
+            if(ParentId == 0)
+            {
+                var resultsSet = await NoticeRepositoryAsyncReference.GetAllAsync(pager.PageIndex, pager.PageSize);
+                pager.RecordCount = resultsSet.TotalRecords;
+                models = resultsSet.Records.ToList();
+            }
+            else
+            {
+                var resultsSet = await NoticeRepositoryAsyncReference.GetAllByParentIdAsync(pager.PageIndex, pager.PageSize, ParentId);
+                pager.RecordCount = resultsSet.TotalRecords;
+                models = resultsSet.Records.ToList();
+            }
+            
+
 
             StateHasChanged();
         }
@@ -87,6 +107,12 @@ namespace NoticeApp.Pages.Notices
             // DeleteForm 모달창 띄우기
             DeleteFormReference.Show();
         }
+        
+        protected void ToggleBy(Notice model)
+        {
+            this.model = model;
+            IsInlineDialogShow = true;
+        }
 
         protected async void CreateOrEdit()
         {
@@ -107,6 +133,23 @@ namespace NoticeApp.Pages.Notices
             // 모델 초기화
             this.model = new Notice();
             // 새로고침 - 데이터 다시 로드
+            await DisplayData();
+        }
+
+        protected void ToggleClose()
+        {
+            IsInlineDialogShow = false;
+            this.model = new Notice();
+        }
+
+        protected async void ToggleClick()
+        {
+            this.model.IsPinned = (this.model.IsPinned == true) ? false : true;
+
+            await NoticeRepositoryAsyncReference.EditAsync(this.model);
+            IsInlineDialogShow = false;
+
+            this.model = new Notice();
             await DisplayData();
         }
 

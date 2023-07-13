@@ -43,6 +43,7 @@
                         <th>Id</th>
                         <th>Name</th>
                         <th>Created</th>
+                        <th>IsPinned</th>
                         <th>Action</th>
                         <th>Admin</th>
                     </tr>
@@ -57,6 +58,9 @@
                             </td>
                             <td>@m.Created?.ToShortTimeString()</td>
                             <td>
+                                @(m.IsPinned == true ? "공지" : "")
+                            </td>
+                            <td>
                                 <a href="/Notices/Details/@m.Id" class="btn btn-light">Details</a>
                                 <a href="/Notices/Edit/@m.Id" class="btn btn-light">Edit</a>
                                 <a href="/Notices/Delete/@m.Id" class="btn btn-light">Delete</a>
@@ -64,8 +68,8 @@
                             <td>
                                 <input type="button" name="btnEdit" value="Edit with Modal" class="btn btn-primary" @onclick="(() => EditBy(m))"/>
                                 <input type="button" name="btnDelete" value="Delete with Modal" class="btn btn-primary" @onclick="(() => DeleteBy(m))" />
+                                <input type="button" name="btnToggle" value="Toggle with Modal" class="btn btn-primary" @onclick="(() => ToggleBy(m))" />
                             </td>
-
                         </tr>
                     }
                 </tbody>
@@ -88,8 +92,29 @@
 
 <NoticeApp.Pages.Notices.Components.DeleteDialog
     @ref="DeleteFormReference"
-    OnClick="DeleteClick"
-
->
-
+    OnClick="DeleteClick">
 </NoticeApp.Pages.Notices.Components.DeleteDialog>
+
+<!-- 내부 모달폼 -->
+@if(IsInlineDialogShow)
+{
+    <div class="modal fade show d-block" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">공지글로 올리기</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" @onclick="ToggleClose">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>@(model.Id)번 글을 공지글로 설정할까요?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" @onclick="ToggleClick">설정</button>
+                    <button type="button" class="btn btn-secondary" @onclick="ToggleClose">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

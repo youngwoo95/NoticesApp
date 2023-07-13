@@ -29,7 +29,7 @@ namespace NoticeApp
             builder.Services.AddSingleton<WeatherForecastService>();
 
             // 데이터베이스 컨텍스트
-            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<NoticeAppDbContext>(options => options.UseSqlServer(@"Server=192.168.45.73,1433;Database=NoticeApp;User Id=sa2;Password=wegg2650;"));
+            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<NoticeAppDbContext>(options => options.UseSqlServer(@"Server=192.168.45.73,1433;Database=NoticeApp;User Id=sa2;Password=wegg2650;"), ServiceLifetime.Transient);
             
             // 공지사항(NoticeApp) 관련 의존성(종속성) 주입 관련 코드만 따로 모아서 관리
             // INoticeRepositoryAsync.cs Inject: DI Container에 서비스(리포지토리) 등록
