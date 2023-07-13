@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDb21wb25lbnRzXE1hbmFnZUJ5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Components/SearchBox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDb21wb25lbnRzXFNlYXJjaEJveC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

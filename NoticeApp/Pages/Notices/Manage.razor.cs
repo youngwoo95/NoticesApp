@@ -41,9 +41,14 @@ namespace NoticeApp.Pages.Notices
 
         protected override async Task OnInitializedAsync()
         {
-            // MatBlazor - Prgressbar
-            //await Task.Delay(3000);
-            await DisplayData();
+            if (this.searchQuery != "")
+            {
+                await DisplayData();
+            }
+            else
+            {
+                await SearchData();
+            }
         }
 
         private async Task DisplayData()
@@ -60,10 +65,23 @@ namespace NoticeApp.Pages.Notices
                 pager.RecordCount = resultsSet.TotalRecords;
                 models = resultsSet.Records.ToList();
             }
-            
-
-
             StateHasChanged();
+        }
+
+        private async Task SearchData()
+        {
+            if(ParentId == 0)
+            {
+                var resultsSet = await NoticeRepositoryAsyncReference.SearchAllAsync(pager.PageIndex, pager.PageSize, this.searchQuery);
+                pager.RecordCount = resultsSet.TotalRecords;
+                models = resultsSet.Records.ToList();
+            }
+            else
+            {
+                var resultsSet = await NoticeRepositoryAsyncReference.SearchAllByParentIdAsync(pager.PageIndex, pager.PageSize, this.searchQuery, ParentId);
+                pager.RecordCount = resultsSet.TotalRecords;
+                models = resultsSet.Records.ToList();
+            }
         }
 
         /// <summary>
@@ -79,9 +97,27 @@ namespace NoticeApp.Pages.Notices
         {
             pager.PageIndex = pageIndex;
             pager.PageNumber = pageIndex + 1;
+            
+            if (this.searchQuery == "")
+            {
+                await DisplayData();
+            }
+            else
+            {
+                await SearchData();
+            }
 
-            await DisplayData();
+            StateHasChanged();
         }
+
+        private string searchQuery;
+        protected async void Search(string query)
+        {
+            this.searchQuery = query;
+            await SearchData();
+            StateHasChanged();
+        }
+
 
         public string EditorFormTitle { get; set; } = "CREATE";
         protected void ShowEditorForm()

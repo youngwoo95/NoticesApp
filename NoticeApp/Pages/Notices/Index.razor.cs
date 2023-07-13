@@ -28,12 +28,27 @@ namespace NoticeApp.Pages.Notices
         {
             // MatBlazor - Prgressbar
             //await Task.Delay(3000);
-            await DisplayData();
+
+            if (this.searchQuery != "")
+            {
+                await DisplayData();
+            }
+            else
+            {
+                await SearchData();
+            }
         }
 
         private async Task DisplayData()
         {
             var resultsSet = await NoticeRepositoryAsyncReference.GetAllAsync(pager.PageIndex, pager.PageSize);
+            pager.RecordCount = resultsSet.TotalRecords;
+            models = resultsSet.Records.ToList();
+        }
+
+        private async Task SearchData()
+        {
+            var resultsSet = await NoticeRepositoryAsyncReference.SearchAllAsync(pager.PageIndex, pager.PageSize, this.searchQuery);
             pager.RecordCount = resultsSet.TotalRecords;
             models = resultsSet.Records.ToList();
         }
@@ -52,9 +67,24 @@ namespace NoticeApp.Pages.Notices
             pager.PageIndex = pageIndex;
             pager.PageNumber = pageIndex + 1;
 
-            await DisplayData();
+            if (this.searchQuery == "")
+            {
+                await DisplayData();
+            }
+            else
+            {
+                await SearchData();
+            }
 
             // Refresh
+            StateHasChanged();
+        }
+
+        private string searchQuery;
+        protected async void Search(string query)
+        {
+            this.searchQuery = query;
+            await SearchData();
             StateHasChanged();
         }
 
