@@ -6882,23 +6882,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rlady\\.nuget\\packages\\": {},
+    "C:\\Users\\kyw\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rlady\\OneDrive\\문서\\NoticesApp\\NoticeApp.Models.Tests\\NoticeApp.Models.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models.Tests\\NoticeApp.Models.Tests.csproj",
       "projectName": "NoticeApp.Models.Tests",
-      "projectPath": "C:\\Users\\rlady\\OneDrive\\문서\\NoticesApp\\NoticeApp.Models.Tests\\NoticeApp.Models.Tests.csproj",
-      "packagesPath": "C:\\Users\\rlady\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rlady\\OneDrive\\문서\\NoticesApp\\NoticeApp.Models.Tests\\obj\\",
+      "projectPath": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models.Tests\\NoticeApp.Models.Tests.csproj",
+      "packagesPath": "C:\\Users\\kyw\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rlady\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kyw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6907,6 +6910,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -6914,8 +6918,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\rlady\\OneDrive\\문서\\NoticesApp\\NoticeApp.Models\\NoticeApp.Models.csproj": {
-              "projectPath": "C:\\Users\\rlady\\OneDrive\\문서\\NoticesApp\\NoticeApp.Models\\NoticeApp.Models.csproj"
+            "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\NoticeApp.Models.csproj": {
+              "projectPath": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\NoticeApp.Models.csproj"
             }
           }
         }
@@ -6924,6 +6928,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6963,7 +6972,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

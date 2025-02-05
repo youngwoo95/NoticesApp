@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kyw\\Documents\\NoticesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp\\pages\\notices\\delete.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\delete.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp\\pages\\notices\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp\\pages\\notices\\edit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\edit.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp\\pages\\notices\\details.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\details.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|C:\\Users\\kyw\\Documents\\NoticesApp\\noticeapp\\pages\\notices\\manage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\manage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|C:\\Users\\kyw\\Documents\\NoticesApp\\noticeapp\\pages\\notices\\manage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\manage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp.models\\noticerepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|solutionrelative:noticeapp.models\\noticerepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp.models\\noticeappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|solutionrelative:noticeapp.models\\noticeappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp\\pages\\notices\\create.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\create.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp\\pages\\notices\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF615738-4A10-4F97-A8D5-87C68682913B}|NoticeApp\\NoticeApp.csproj|solutionrelative:noticeapp\\pages\\notices\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53916302-5913-4333-AC42-1BDAC3F61EE9}|NoticeApp.Models.Tests\\NoticeApp.Models.Tests.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp.models.tests\\noticerepositoryasynctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53916302-5913-4333-AC42-1BDAC3F61EE9}|NoticeApp.Models.Tests\\NoticeApp.Models.Tests.csproj|solutionrelative:noticeapp.models.tests\\noticerepositoryasynctest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp.models\\notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|solutionrelative:noticeapp.models\\notice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|c:\\users\\kyw\\documents\\noticesapp\\noticeapp.models\\inoticerepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E946BC2D-0650-4811-B18B-50CA0169599A}|NoticeApp.Models\\NoticeApp.Models.csproj|solutionrelative:noticeapp.models\\inoticerepositoryasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.razor.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Delete.razor.cs",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Delete.razor.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Delete.razor.cs",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Delete.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvygAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:40:04.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.razor.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Edit.razor.cs",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Edit.razor.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Edit.razor.cs",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Edit.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:38:36.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.razor.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Details.razor.cs",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Details.razor.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Details.razor.cs",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Details.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:38:27.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Delete.razor",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Delete.razor",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Delete.razor",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Delete.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T03:37:57.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NoticeAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\NoticeAppDbContext.cs",
+              "RelativeDocumentMoniker": "NoticeApp.Models\\NoticeAppDbContext.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\NoticeAppDbContext.cs",
+              "RelativeToolTip": "NoticeApp.Models\\NoticeAppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:37:53.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Program.cs",
+              "RelativeDocumentMoniker": "NoticeApp\\Program.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Program.cs",
+              "RelativeToolTip": "NoticeApp\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvyMAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:04:44.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Manage.razor",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Manage.razor",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Manage.razor",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Manage.razor",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Manage.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T07:19:53.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Manage.razor.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Manage.razor.cs",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Manage.razor.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Manage.razor.cs",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Manage.razor.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAUwKAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T07:19:53.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.razor.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Create.razor.cs",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Create.razor.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Create.razor.cs",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Create.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:04:51.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Create.razor",
+              "RelativeDocumentMoniker": "NoticeApp\\Pages\\Notices\\Create.razor",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp\\Pages\\Notices\\Create.razor",
+              "RelativeToolTip": "NoticeApp\\Pages\\Notices\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T02:04:49.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NoticeRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\NoticeRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "NoticeApp.Models\\NoticeRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\NoticeRepositoryAsync.cs",
+              "RelativeToolTip": "NoticeApp.Models\\NoticeRepositoryAsync.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T01:54:11.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Notice.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\Notice.cs",
+              "RelativeDocumentMoniker": "NoticeApp.Models\\Notice.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\Notice.cs",
+              "RelativeToolTip": "NoticeApp.Models\\Notice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T01:54:09.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "INoticeRepositoryAsync.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\INoticeRepositoryAsync.cs",
+              "RelativeDocumentMoniker": "NoticeApp.Models\\INoticeRepositoryAsync.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models\\INoticeRepositoryAsync.cs",
+              "RelativeToolTip": "NoticeApp.Models\\INoticeRepositoryAsync.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T01:54:07.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NoticeRepositoryAsyncTest.cs",
+              "DocumentMoniker": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models.Tests\\NoticeRepositoryAsyncTest.cs",
+              "RelativeDocumentMoniker": "NoticeApp.Models.Tests\\NoticeRepositoryAsyncTest.cs",
+              "ToolTip": "C:\\Users\\kyw\\Documents\\NoticesApp\\NoticeApp.Models.Tests\\NoticeRepositoryAsyncTest.cs",
+              "RelativeToolTip": "NoticeApp.Models.Tests\\NoticeRepositoryAsyncTest.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAwBwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T07:19:59.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

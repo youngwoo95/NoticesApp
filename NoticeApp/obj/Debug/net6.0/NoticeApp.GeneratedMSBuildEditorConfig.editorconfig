@@ -9,105 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NoticeApp
 build_property.RootNamespace = NoticeApp
-build_property.ProjectDir = C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp\
+build_property.ProjectDir = C:\Users\kyw\Documents\NoticesApp\NoticeApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rlady\OneDrive\문서\NoticesApp\NoticeApp
+build_property.MSBuildProjectDirectory = C:\Users\kyw\Documents\NoticesApp\NoticeApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/App.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Counter.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/FetchData.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Index.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Components/DeleteDialog.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Components/DeleteDialog.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDb21wb25lbnRzXERlbGV0ZURpYWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Components/EditorForm.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Components/EditorForm.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDb21wb25lbnRzXEVkaXRvckZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Components/ManageBy.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Components/ManageBy.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDb21wb25lbnRzXE1hbmFnZUJ5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Components/SearchBox.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Components/SearchBox.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDb21wb25lbnRzXFNlYXJjaEJveC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Create.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Delete.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xEZWxldGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Details.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Edit.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Index.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Notices/Manage.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Notices/Manage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNlc1xNYW5hZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Shared/LoginDisplay.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Shared/SurveyPrompt.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/_Imports.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Shared/MainLayout.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-aqdohm2dv6
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Shared/NavMenu.razor]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4b1j6nosol
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Areas/Identity/Pages/Account/LogOut.cshtml]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Areas/Identity/Pages/Account/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/Error.cshtml]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/_Host.cshtml]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rlady/OneDrive/문서/NoticesApp/NoticeApp/Pages/_Layout.cshtml]
+[C:/Users/kyw/Documents/NoticesApp/NoticeApp/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -18,10 +18,12 @@ namespace NoticeApp.Models.Tests
         public async Task NoticeRepositoryAsyncAllMethodTest()
         {
             #region [0] DbContextOptions<T> Object Creation and IloggerFactory Object Creation
+            /*
             var options = new DbContextOptionsBuilder<NoticeAppDbContext>()
                     .UseInMemoryDatabase(databaseName: $"NoticeApp{(Guid.NewGuid())}").Options;
-
-            //var options = new DbContextOptionsBuilder<NoticeAppDbContext>().UseSqlServer(@"Server=192.168.45.73,1433;Database=NoticeApp;User Id=sa2;Password=wegg2650;").Options;
+            */
+            var options = new DbContextOptionsBuilder<NoticeAppDbContext>()
+                .UseSqlServer(@"Server=192.168.45.73,1433;Database=NoticeApp;User Id=sa2;Password=wegg2650;").Options;
 
             var serviceProvider = new ServiceCollection().AddLogging().BuildServiceProvider();
             var factory = serviceProvider.GetService<ILoggerFactory>();
